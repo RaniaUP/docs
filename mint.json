@@ -27,7 +27,13 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Developer",
+      "url": "api-reference"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Integrations",
       "url": "api-reference"
     }
   ],
