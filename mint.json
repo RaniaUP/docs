@@ -57,6 +57,14 @@
         "development"
       ]
     },
+     {
+        "group": "Data and Events",
+        "pages": [
+            "quickstart",
+            {
+                "group": "Autocapture",
+                "pages": ["api-reference/endpoint/get"]
+            }
     {
       "group": "Essentials",
       "pages": [
