@@ -64,8 +64,9 @@
             {
                 "group": "Autocapture",
                 "pages": ["api-reference/endpoint/get"]
-            },
+            }
             ]
+            },
     {
       "group": "Essentials",
       "pages": [
