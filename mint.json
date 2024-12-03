@@ -68,7 +68,7 @@
             "quickstart1",
             {
                 "group": "Autocapture",
-                "pages": ["introduction"]
+                "pages": ["autocapture"]
             }
         ]
       },
