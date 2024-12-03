@@ -29,8 +29,13 @@
     {
       "name": "Integrations",
       "url": "api-reference"
+    },
+     {
+      "name": "Integrations",
+      "url": "development"
     }
   ],
+  
   "anchors": [
     {
       "name": "Documentation",
@@ -57,6 +62,16 @@
         "development"
       ]
     },
+     {
+        "group": "Data and Events",
+        "pages": [
+            "quickstart1",
+            {
+                "group": "Autocapture",
+                "pages": ["introduction"]
+            }
+        ]
+      },
     {
       "group": "Essentials",
       "pages": [
