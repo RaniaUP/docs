@@ -65,7 +65,7 @@
      {
         "group": "Data and Events",
         "pages": [
-            "quickstart",
+            "quickstart1",
             {
                 "group": "Autocapture",
                 "pages": ["api-reference/endpoint/get"]
