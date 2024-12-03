@@ -68,10 +68,10 @@
             "quickstart",
             {
                 "group": "Autocapture",
-                "pages": "api-reference/endpoint/get"
+                "pages": ["api-reference/endpoint/get"]
             }
-            ]
-            },
+        ]
+      },
     {
       "group": "Essentials",
       "pages": [
