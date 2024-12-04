@@ -72,6 +72,16 @@
             }
         ]
       },
+       {
+        "group": "Mobile",
+        "pages": [
+            "quickstart1",
+            {
+                "group": "Autocapture",
+                "pages": ["api-reference/autocapture"]
+            }
+        ]
+      },
     {
       "group": "Essentials",
       "pages": [
