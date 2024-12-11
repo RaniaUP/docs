@@ -17,25 +17,28 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Support 1",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Product",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "Integrations",
+      "name": "Product",
       "url": "api-reference"
     },
-     {
+    {
+      "name": "Product",
+      "url": "mobile"
+    },
+    {
       "name": "Integrations",
-      "url": "development"
+      "url": "api-reference/introduction"
     }
   ],
-  
   "anchors": [
     {
       "name": "Documentation",
@@ -43,7 +46,7 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
+      "name": "Product",
       "icon": "slack",
       "url": "https://mintlify.com/community"
     },
@@ -55,56 +58,191 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "welcome-to-userpilot",
+        "how-userpilot-works",
+        "installation-quickstart"
       ]
     },
-     {
-        "group": "Data and Events",
-        "pages": [
-            "quickstart1",
+    {
+      "group": "Users and Companies",
+      "pages": []
+    },
+    {
+      "group": "Data and Events",
+      "pages": [
+        {
+          "group": "Auto-capture",
+          "pages": [
+            "raw-events",
+            "visual-labeler"
+          ]
+        },
+        {
+          "group": "Tracked events",
+          "pages": [
+            "sending-tracked-events",
+            "events-dashboard"
+          ]
+        },
+        {
+          "group": "Page Tracking",
+          "pages": [
+            "https://docs.userpilot.com/article/262-pages-overview",
+            "https://docs.userpilot.com/article/263-tagging-a-page"
+          ]
+        },
+        "custom-events",
+        "https://docs.userpilot.com/article/258-how-to-utlize-events"
+      ]
+    },
+    {
+      "group": "In-App Engagement",
+      "pages": [
+        {
+          "group": "Flows",
+          "pages": [
+            "getting-started-with-flows",
+            "setting-up-a-theme",
+            "creating-a-flow",
+            "set-up-settings",
+            "best-practices-for-flows",
+            "testing-flows",
             {
-                "group": "Autocapture",
-                "pages": ["api-reference/autocapture"]
-            }
-        ]
-      },
-       {
-        "group": "Mobile",
-        "pages": [
-            "quickstart1",
+              "group": "Use cases",
+              "pages": [
+                "a-b-testing-flows",
+                "collect-user-feedback",
+                "order-and-throttle-flows",
+                "flow-analytics",
+                "accessibility"
+              ]
+            },
             {
-                "group": "Autocapture",
-                "pages": ["api-reference/autocapture"]
+              "group": "Chrome Extension",
+              "pages": [
+                "button-actions",
+                "embedding-in-flows",
+                "select-the-right-element",
+                "localize-flows"
+              ]
             }
-        ]
-      },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+          ]
+        },
+        {
+          "group": "Spotlights",
+          "pages": [
+            "https://docs.userpilot.com/article/176-overview-and-use-cases",
+            "https://docs.userpilot.com/article/214-native-tooltips",
+            "https://docs.userpilot.com/article/215-hotspots",
+            "https://docs.userpilot.com/article/298-buttons",
+            "https://docs.userpilot.com/article/173-detecting-and-displaying-the-right-element"
+          ]
+        },
+        {
+          "group": "Banners",
+          "pages": [
+            "https://docs.userpilot.com/article/216-banners",
+            "https://docs.userpilot.com/article/303-targeting-a-banner"
+          ]
+        },
+        {
+          "group": "Resource Center",
+          "pages": [
+            "https://docs.userpilot.com/article/185-overview-and-use-cases",
+            "https://docs.userpilot.com/article/182-resource-center-styling",
+            "https://docs.userpilot.com/article/186-triggering-the-resource-center",
+            "https://docs.userpilot.com/article/187-targeting-the-resource-center",
+            "https://docs.userpilot.com/article/188-testing-and-publishing",
+            "https://docs.userpilot.com/article/212-localize-respurce-center-content",
+            "https://docs.userpilot.com/article/237-adding-a-video-to-the-resource-center",
+            "https://docs.userpilot.com/article/306-resource-center-help-tab-integrating-kb-sources"
+          ]
+        },
+        {
+          "group": "Checklist",
+          "pages": [
+            "https://docs.userpilot.com/article/52-getting-started-with-checklists",
+            "https://docs.userpilot.com/article/53-creating-checklists",
+            "https://docs.userpilot.com/article/57-checklist-widget",
+            "https://docs.userpilot.com/article/54-how-to-configure-your-checklist",
+            "https://docs.userpilot.com/article/220-targeting-a-checklist",
+            "https://docs.userpilot.com/article/219-checklist-localization",
+            "https://docs.userpilot.com/article/227-testing-and-publishing",
+            "https://docs.userpilot.com/article/228-checklist-analytics"
+          ]
+        }
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Product Analytics",
       "pages": [
-        "api-reference/introduction"
+        {
+          "group": "Reports",
+          "pages": [
+            "trends",
+            "funnels",
+            "retention",
+            "paths"
+          ]
+        },
+        {
+          "group": "Dashboards",
+          "pages": [
+            "core-feature-engagement",
+            "new-user-activation",
+            "product-usage",
+            "custom-dashboards"
+          ]
+        }
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "User Feedback",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Surveys",
+          "pages": [
+            "creating-a-survey",
+            "triggering-and-targeting-settings",
+            "survey-responses-and-analytics",
+            "localizing-survey-content"
+          ]
+        },
+        {
+          "group": "NPS",
+          "pages": [
+            "creating-an-nps",
+            "targeting-and-triggering-an-nps",
+            "nps-responses-and-analytics",
+            "localize-nps-content"
+          ]
+        },
+        "forms"
+      ]
+    },
+    {
+      "group": "Mobile",
+      "pages": []
+    },
+    {
+      "group": "Session Replay",
+      "pages": []
+    },
+    {
+      "group": "Account Settings",
+      "pages": []
+    },
+    {
+      "group": "Best Practices",
+      "pages": []
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "installation-troubleshooting",
+        "flows-troubleshooting"
       ]
     }
   ],
